@@ -1,0 +1,117 @@
+@import url('http://fonts.cdnfonts.com/css/my-puma');
+ /* navbar css starts here */
+
+ .header{
+    background-image: linear-gradient(to right top, #32bbcd, #00cdb9, #54da8b, #a8df4e, #ffd700);    
+    background-size: 100% 100%;
+    color:white;
+ }
+ 
+ #company{
+    font-family: 'My Puma', sans-serif;
+    color:white;
+ }
+
+ .companyInfo{
+    margin-top:20px;
+ }
+
+ .headLogo{
+    width:50px;
+ }
+
+ .nav-link{
+    color:white;
+    text-decoration: none;
+    font-size: large;
+ }
+
+ .nav-link:hover{
+    color:white;
+    text-decoration: underline rgb(255, 0, 255);
+    text-underline-offset: 12px;
+ }
+ .nav-link:visited{
+    color:white;
+    text-decoration: underline rgb(255, 0, 255);
+    text-underline-offset: 12px;
+ }
+
+ #navbarNav{
+    margin-left: 30px;
+ }
+
+
+ .navbar-toggler:focus {
+    
+    outline: none!important;
+  }
+ /* navbar css end here */
+
+
+
+
+/* products page css starts here */
+.card{
+  
+   margin:1%;
+   margin-bottom:20px;
+  
+   border-radius:3%;
+   width:18rem;
+   
+}
+img{
+    border-radius: 3% 3% 0 0;
+}
+.priceClass{
+    color:rgb(243, 21, 21,0.8);
+}
+.card-body .ratingClass span{
+    color:gold;
+    font-size: large;
+}
+
+
+
+@media (min-width: 400px) and (max-width: 768px){
+       .card{
+        width:25rem;
+       }
+}
+
+.card:hover{
+    box-shadow: rgba(232, 237, 97) 0px 6px 12px -2px, rgba(232, 237, 97) 0px 3px 7px -3px;
+    transform:scale(1.02);
+    cursor:pointer;
+
+}
+
+/* products page css ends here */
+
+
+
+
+
+.Footer{
+  
+
+   background-image: linear-gradient(to left bottom, #32bbcd, #00cdb9, #54da8b, #a8df4e, #ffd700);
+
+   color:white;
+}
+
+.footerLinks{
+    color:rgb(245, 245, 245,0.6);
+  text-decoration: none;
+}
+.footerLinks:hover{
+    color:white;
+   
+}
+#pantherLogo{
+    font-family: 'My Puma', sans-serif;
+                                                
+}
+
+
